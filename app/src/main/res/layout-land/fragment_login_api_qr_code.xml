@@ -25,13 +25,13 @@
   <data>
     <variable
       name="fragment"
-      type="xyz.zedler.patrick.grocy.fragment.LoginApiQrCodeFragment" />
+      type="xyz.zedler.patrick.med.fragment.LoginApiQrCodeFragment" />
     <variable
       name="clickUtil"
-      type="xyz.zedler.patrick.grocy.util.ClickUtil" />
+      type="xyz.zedler.patrick.med.util.ClickUtil" />
     <variable
       name="activity"
-      type="xyz.zedler.patrick.grocy.activity.MainActivity" />
+      type="xyz.zedler.patrick.med.activity.MainActivity" />
   </data>
 
   <androidx.coordinatorlayout.widget.CoordinatorLayout

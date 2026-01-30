@@ -24,7 +24,7 @@ plugins {
 }
 
 android {
-    namespace = 'xyz.zedler.patrick.grocy'
+    namespace = 'xyz.zedler.patrick.med'
     compileSdk = 36
 
     defaultConfig {

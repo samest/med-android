@@ -25,20 +25,20 @@
 
   <data>
     <import type="android.view.View" />
-    <import type="xyz.zedler.patrick.grocy.R" />
-    <import type="xyz.zedler.patrick.grocy.Constants" />
+    <import type="xyz.zedler.patrick.med.R" />
+    <import type="xyz.zedler.patrick.med.Constants" />
     <variable
       name="formData"
-      type="xyz.zedler.patrick.grocy.form.FormDataPurchase" />
+      type="xyz.zedler.patrick.med.form.FormDataPurchase" />
     <variable
       name="viewModel"
-      type="xyz.zedler.patrick.grocy.viewmodel.PurchaseViewModel" />
+      type="xyz.zedler.patrick.med.viewmodel.PurchaseViewModel" />
     <variable
       name="activity"
-      type="xyz.zedler.patrick.grocy.activity.MainActivity" />
+      type="xyz.zedler.patrick.med.activity.MainActivity" />
     <variable
       name="fragment"
-      type="xyz.zedler.patrick.grocy.fragment.PurchaseFragment" />
+      type="xyz.zedler.patrick.med.fragment.PurchaseFragment" />
   </data>
 
   <androidx.coordinatorlayout.widget.CoordinatorLayout
@@ -117,7 +117,7 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <xyz.zedler.patrick.grocy.view.swiperefreshlayout.CustomSwipeRefreshLayout
+    <xyz.zedler.patrick.med.view.swiperefreshlayout.CustomSwipeRefreshLayout
       android:id="@+id/swipe"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
@@ -271,7 +271,7 @@
                   app:errorIconDrawable="@{null}"
                   app:errorText="@{formData.productNameErrorLive}">
 
-                  <xyz.zedler.patrick.grocy.view.CustomAutoCompleteTextView
+                  <xyz.zedler.patrick.med.view.CustomAutoCompleteTextView
                     android:id="@+id/auto_complete_purchase_product"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -298,7 +298,7 @@
                 android:paddingStart="52dp"
                 android:paddingEnd="16dp">
 
-                <xyz.zedler.patrick.grocy.view.InputChip
+                <xyz.zedler.patrick.med.view.InputChip
                   android:id="@+id/barcode_chip"
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
@@ -768,7 +768,7 @@
 
       </FrameLayout>
 
-    </xyz.zedler.patrick.grocy.view.swiperefreshlayout.CustomSwipeRefreshLayout>
+    </xyz.zedler.patrick.med.view.swiperefreshlayout.CustomSwipeRefreshLayout>
 
   </androidx.coordinatorlayout.widget.CoordinatorLayout>
 

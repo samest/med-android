@@ -25,16 +25,16 @@
 
   <data>
     <import type="android.view.View" />
-    <import type="xyz.zedler.patrick.grocy.Constants" />
+    <import type="xyz.zedler.patrick.med.Constants" />
     <variable
       name="viewModel"
-      type="xyz.zedler.patrick.grocy.viewmodel.MealPlanViewModel" />
+      type="xyz.zedler.patrick.med.viewmodel.MealPlanViewModel" />
     <variable
       name="activity"
-      type="xyz.zedler.patrick.grocy.activity.MainActivity" />
+      type="xyz.zedler.patrick.med.activity.MainActivity" />
     <variable
       name="fragment"
-      type="xyz.zedler.patrick.grocy.fragment.MealPlanFragment" />
+      type="xyz.zedler.patrick.med.fragment.MealPlanFragment" />
   </data>
 
   <androidx.recyclerview.widget.RecyclerView

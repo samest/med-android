@@ -18,7 +18,7 @@
   ~ Copyright (c) 2024-2026 by Patrick Zedler
   -->
 
-<xyz.zedler.patrick.grocy.view.MaterialTimelineView
+<xyz.zedler.patrick.med.view.MaterialTimelineView
   android:id="@+id/timeline_view"
   android:layout_width="match_parent"
   android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
       style="@style/Widget.Grocy.LinearLayout.ListItem.TwoLine.Clickable.More"
       android:background="@drawable/ripple_list_item_swipeable">
 
-      <xyz.zedler.patrick.grocy.view.RoundedCornerImageView
+      <xyz.zedler.patrick.med.view.RoundedCornerImageView
         android:id="@+id/picture"
         android:layout_width="56dp"
         android:layout_height="56dp"
@@ -101,4 +101,4 @@
 
   </LinearLayout>
 
-</xyz.zedler.patrick.grocy.view.MaterialTimelineView>
+</xyz.zedler.patrick.med.view.MaterialTimelineView>

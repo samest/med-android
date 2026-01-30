@@ -24,19 +24,19 @@
 
   <data>
     <import type="android.view.View" />
-    <import type="xyz.zedler.patrick.grocy.R" />
+    <import type="xyz.zedler.patrick.med.R" />
     <variable
       name="viewModel"
-      type="xyz.zedler.patrick.grocy.viewmodel.RecipeViewModel" />
+      type="xyz.zedler.patrick.med.viewmodel.RecipeViewModel" />
     <variable
       name="activity"
-      type="xyz.zedler.patrick.grocy.activity.MainActivity" />
+      type="xyz.zedler.patrick.med.activity.MainActivity" />
     <variable
       name="fragment"
-      type="xyz.zedler.patrick.grocy.fragment.RecipeFragment" />
+      type="xyz.zedler.patrick.med.fragment.RecipeFragment" />
     <variable
       name="clickUtil"
-      type="xyz.zedler.patrick.grocy.util.ClickUtil" />
+      type="xyz.zedler.patrick.med.util.ClickUtil" />
   </data>
 
   <androidx.coordinatorlayout.widget.CoordinatorLayout
@@ -95,7 +95,7 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <xyz.zedler.patrick.grocy.view.swiperefreshlayout.CustomSwipeRefreshLayout
+    <xyz.zedler.patrick.med.view.swiperefreshlayout.CustomSwipeRefreshLayout
       android:id="@+id/swipe"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
@@ -349,7 +349,7 @@
             android:layout_marginTop="16dp"
             android:text="@string/property_preparation"/>
 
-          <xyz.zedler.patrick.grocy.view.HtmlView
+          <xyz.zedler.patrick.med.view.HtmlView
             android:id="@+id/preparation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -360,7 +360,7 @@
 
       </androidx.core.widget.NestedScrollView>
 
-    </xyz.zedler.patrick.grocy.view.swiperefreshlayout.CustomSwipeRefreshLayout>
+    </xyz.zedler.patrick.med.view.swiperefreshlayout.CustomSwipeRefreshLayout>
 
   </androidx.coordinatorlayout.widget.CoordinatorLayout>
 

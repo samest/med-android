@@ -18,7 +18,7 @@ iOS/macOS client for Grocy: [Grocy-SwiftUI](https://github.com/supergeorg/Grocy-
 
 ## Downloads
 
-<a href='https://play.google.com/store/apps/details?id=xyz.zedler.patrick.grocy'><img alt='Get it on Google Play' height="80" src='assets/badge_playstore.png'/></a><a href='https://f-droid.org/de/packages/xyz.zedler.patrick.grocy/'><img alt='Get it on F-Droid' height="80" src='assets/badge_fdroid.png'/></a><a href='https://github.com/patzly/grocy-android/releases'><img alt='Get it on GitHub' height="80" src='assets/badge_github.png'/></a>
+<a href='https://play.google.com/store/apps/details?id=xyz.zedler.patrick.med'><img alt='Get it on Google Play' height="80" src='assets/badge_playstore.png'/></a><a href='https://f-droid.org/de/packages/xyz.zedler.patrick.med/'><img alt='Get it on F-Droid' height="80" src='assets/badge_fdroid.png'/></a><a href='https://github.com/patzly/grocy-android/releases'><img alt='Get it on GitHub' height="80" src='assets/badge_github.png'/></a>
 
 If you want to try new features right after development, you can download an unsigned [nightly build APK](https://github.com/patzly/grocy-android/releases/tag/nightly) for that.
 

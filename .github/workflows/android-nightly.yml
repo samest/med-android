@@ -19,7 +19,7 @@ jobs:
     
     - name: Replace applicationId and name
       run: |
-        sed -i 's/applicationId "xyz.zedler.patrick.grocy"/applicationId "xyz.zedler.patrick.grocy.nightly"/' app/build.gradle
+        sed -i 's/applicationId "xyz.zedler.patrick.med"/applicationId "xyz.zedler.patrick.med.nightly"/' app/build.gradle
         sed -i 's|<string name="app_name" translatable="false">Grocy</string>|<string name="app_name" translatable="false">Grocy Nightly</string>|g' app/src/main/res/values/strings.xml
         
     - name: Set up JDK 19
@@ -53,7 +53,7 @@ jobs:
     
     - name: Replace applicationId to default for checkout without git commit
       run: |
-        sed -i 's/applicationId "xyz.zedler.patrick.grocy.nightly"/applicationId "xyz.zedler.patrick.grocy"/' app/build.gradle
+        sed -i 's/applicationId "xyz.zedler.patrick.med.nightly"/applicationId "xyz.zedler.patrick.med"/' app/build.gradle
         sed -i 's|<string name="app_name" translatable="false">Grocy</string>|<string name="app_name" translatable="false">Grocy Nightly</string>|g' app/src/main/res/values/strings.xml
         
     - name: Checkout branch
@@ -63,7 +63,7 @@ jobs:
         
     - name: Replace applicationId and name
       run: |
-        sed -i 's/applicationId "xyz.zedler.patrick.grocy"/applicationId "xyz.zedler.patrick.grocy.nightly"/' app/build.gradle
+        sed -i 's/applicationId "xyz.zedler.patrick.med"/applicationId "xyz.zedler.patrick.med.nightly"/' app/build.gradle
         sed -i 's%@string/app_name%Grocy Nightly%' app/src/main/AndroidManifest.xml
         
     - name: Grant execute permission for gradlew
