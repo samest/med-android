@@ -19,7 +19,7 @@ jobs:
       run: |
         sed -i 's/applicationId "xyz.zedler.patrick.med"/applicationId "xyz.zedler.patrick.med.nightly"/' app/build.gradle
         # Corrigido para garantir que o nome da app muda mesmo que o Grocy não esteja lá
-        sed -i 's|name="app_name">.*<|name="app_name">Grocy Nightly<|g' app/src/main/res/values/strings.xml
+        sed -i 's|name="app_name">.*<|name="app_name">Med Nightly<|g' app/src/main/res/values/strings.xml
         
     - name: Set up JDK 21 # Atualizado de 19 para 21
       uses: actions/setup-java@v4 # Atualizado v3 -> v4
